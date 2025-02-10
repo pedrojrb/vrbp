@@ -2,6 +2,15 @@
 
 A backend system for managing virtual room reservations efficiently and securely. Users can create, update, and cancel bookings while checking room availability in real-time. Built with **Node.js**, **Express.js**, and **Sequelize ORM** for SQL database integration.  
 
+
+## 🚀 Features  
+- User management (authentication and role-based access).  
+- Room availability checks and efficient booking management.  
+- SQL database integration using **Sequelize ORM**.  
+- Secure data validation and input sanitization.  
+- Scalable and modular backend architecture.  
+- Logging and error handling.  
+  
 ## 🛠 Tech Stack  
 - **Node.js** - Backend runtime  
 - **Express.js** - Web framework  
@@ -9,3 +18,24 @@ A backend system for managing virtual room reservations efficiently and securely
 - **SQL Database** (PostgreSQL/MySQL)  
 - **dotenv** - Environment variable management  
 - **Mocha & Chai** - Testing framework  
+
+## 🛠️ Design and Practices
+
+### **Object-Oriented Programming (OOP)**
+- **Encapsulation:** Controllers manage logic independently for rooms, users, and reservations.
+- **Inheritance:** Middleware and service classes share reusable logic.
+- **Polymorphism:** Service functions handle dynamic data types for different database operations.
+
+### **Database Connection and Management**
+- Using **Sequelize ORM** for database abstraction and model relationships.
+- Migrations for version control of the database schema.
+- Optimized SQL queries for efficient data retrieval and conflict resolution.
+
+### **Design Patterns**
+- **Composite Pattern:** Used for managing hierarchical data structures, such as nested reservation rules or combined room properties.
+- **Iterator Pattern:** Applied in services to iterate through reservation lists or user collections efficiently.
+
+### **Security Practices**
+- Input validation and sanitization.
+- JWT-based authentication.
+- Protection against SQL injection and common vulnerabilities.
