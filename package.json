@@ -1,0 +1,22 @@
+{
+  "name": "vrbp",
+  "version": "1.0.0",
+  "description": "The Virtual Room Booking Platform (VRBP) is a system that enables users to manage virtual room reservations for meetings. Users can check room availability, create, modify, and cancel bookings securely and efficiently.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruiz Baleani Pedro",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.9",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

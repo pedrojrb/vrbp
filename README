@@ -1,0 +1,11 @@
+# 🏢 Virtual Room Booking Platform (VRBP)  
+
+A backend system for managing virtual room reservations efficiently and securely. Users can create, update, and cancel bookings while checking room availability in real-time. Built with **Node.js**, **Express.js**, and **Sequelize ORM** for SQL database integration.  
+
+## 🛠 Tech Stack  
+- **Node.js** - Backend runtime  
+- **Express.js** - Web framework  
+- **Sequelize ORM** - Database management  
+- **SQL Database** (PostgreSQL/MySQL)  
+- **dotenv** - Environment variable management  
+- **Mocha & Chai** - Testing framework  
